@@ -1,0 +1,14 @@
+﻿<Window x:Class="LockScreenTracker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LockScreenTracker"
+        mc:Ignorable="d"
+        Title="LockScreenTracker" Height="122.428" Width="240.179">
+    <StackPanel Orientation="Vertical" Background="#272822">
+        <TextBlock HorizontalAlignment="Left" Margin="14,10,0,0" TextWrapping="Wrap" Text="You have been absent:" VerticalAlignment="Top"  Width="208" Foreground="#f8f8f2" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="14,10,0,0" TextWrapping="Wrap" Text="{Binding Diff}" VerticalAlignment="Top" Width="208" Foreground="#f8f8f2" FontSize="14"/>
+
+    </StackPanel>
+</Window>
